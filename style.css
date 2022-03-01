@@ -1,0 +1,37 @@
+body{
+    margin:0%
+    padding:0%
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    line-height: 36px;
+    bachground-color: rgba(0, 0, 0, 0.918)
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 25px;
+}
+
+li{
+    float: right;
+    border-right: 0.px solid #156ee2;
+}
+a{
+    display: block;
+    margin-top: 15px;
+    padding: 0 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover, .active a{
+    background-color: #156ee2;
+}
+
+.logo img{
+    position:absolute;
+    margin: top 20ex;
+    margin: left 20px;
+    height: 80px;
+}
